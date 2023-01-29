@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Task_11_DuplicateNumber {
     public static void main(String[] args) {
+
+        //****** INTERVIEW QUESTION ******//
+
         /*
         Task 11:
          Write a program to print out duplicate elements from an Array of Strings?

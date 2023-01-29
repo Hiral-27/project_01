@@ -15,5 +15,16 @@ public class Task_03_D2Arrays_Sum {
             }
         }
         System.out.println(sum1);
+
+        //----------------------------------------------------------------------------
+
+        // For Each Loop
+        int sum= 0;
+        for (int[] num: number) {
+            for (int n:num){
+                sum+= n;
+            }
+        }
+        System.out.println(sum);
     }
 }

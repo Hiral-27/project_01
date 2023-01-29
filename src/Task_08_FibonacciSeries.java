@@ -1,5 +1,8 @@
 public class Task_08_FibonacciSeries {
     public static void main(String[] args) {
+
+        //****** INTERVIEW QUESTION ******//
+
         /*
         Task 8:
         Write a Java Program to print the first 10 numbers of Fibonacci series.
@@ -17,6 +20,20 @@ public class Task_08_FibonacciSeries {
             num1= num2;
             System.out.print(num2+" ");
         }
+        System.out.println();
 
+//-------------------------------------------------------------------------------------------------------------------
+
+        // Method 2:
+        int a=0;
+        int b=1;
+        int c;
+        for (int i = 0; i < 10; i++) {
+            c= a+b;
+            System.out.print(c+" ");
+            a= b;
+            b= c;
+
+        }
     }
 }
